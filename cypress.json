@@ -6,6 +6,7 @@
   },
   "component": {
     "pluginsFile": "cypress/ct/plugins/index.js",
+    "supportFile": "cypress/ct/support/index.ts",
     "viewportWidth": 375,
     "viewportHeight": 667,
     "componentFolder": "src/components",
