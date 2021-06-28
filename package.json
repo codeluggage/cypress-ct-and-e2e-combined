@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "3.0.2",
-    "@cypress/vue": "^2.2.3",
+    "@cypress/vue": "^3.0.0",
     "@cypress/webpack-dev-server": "^1.4.0",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
