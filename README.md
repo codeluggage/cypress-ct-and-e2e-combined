@@ -1,19 +1,13 @@
 # Ionic-Vue & Cypress e2e + component testing
 
-Reproduction repo to identify how to have `"pluginsFile": ` for Cypress e2e and Cypress component testing separated in the same `cypress.json`. 
+**FYI: Not fully figured out yet**
 
-Based on Ionic-Vue starter with 
-```
-npm install -g @ionic/cli
-ionic start --type=vue
-```
+Combining Cypress e2e and Cypress component testing (in the same `cypress.json`) for Ionic-Vue. 
 
-And then 
+Discord thread with most of the discussion (and clearing up some misunderstandings about `pluginsFile` and `support` directories): https://discord.com/channels/755913899261296641/755921440359841852/858967171689611275
 
-```
-npm install --save-dev cypress @cypress/vue @cypress/webpack-dev-server webpack-dev-server
-```
+## Try this repo
 
-And then attempting to set up the `cypress/` folder for both e2e and component testing. 
-
-Discord thread: https://discord.com/channels/755913899261296641/755921440359841852/858967171689611275
+1. `npm i`
+2. `npm run cy` for component tests
+3. `npm run test:e2e` for e2e tests
