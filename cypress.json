@@ -1,4 +1,6 @@
 {
+  "fixturesFolder": false,
+  "supportFile": false,
   "e2e": {
     "pluginsFile": "cypress/e2e/plugins/index.js"
   },
@@ -7,6 +9,6 @@
     "viewportWidth": 375,
     "viewportHeight": 667,
     "componentFolder": "src/components",
-    "testFiles": "**/*.spec.{ts,js}"
+    "testFiles": "**/*.spec.cy.{ts,js}"
   }
 }

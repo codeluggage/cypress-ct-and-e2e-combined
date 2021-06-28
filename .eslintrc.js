@@ -26,6 +26,14 @@ module.exports = {
       env: {
         jest: true
       }
+    },
+    {
+      files: [
+        '**/src/components/*.spec.cy.{j,t}s?(x)',
+      ],
+      env: {
+        mocha: true
+      }
     }
   ]
 }
