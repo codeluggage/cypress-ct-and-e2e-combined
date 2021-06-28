@@ -1,0 +1,7 @@
+{
+  "name": "cypress-ct-and-e2e-combined",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

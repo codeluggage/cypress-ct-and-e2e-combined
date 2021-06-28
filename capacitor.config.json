@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "cypress-ct-and-e2e-combined",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
