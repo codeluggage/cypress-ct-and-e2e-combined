@@ -26,15 +26,15 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-import { mount } from "@cypress/vue"
+import { mount } from "@cypress/vue";
 import { IonicVue } from '@ionic/vue';
 
 Cypress.Commands.add('mount', (comp, options) => {
-    options = options || {}
-    options.global = options.global || {}
-    options.global.plugins = options.global.plugins || []
-    options.global.plugins.push(IonicVue)
-    return mount(comp, options)
+    options = options || {};
+    options.global = options.global || {};
+    options.global.plugins = options.global.plugins || [];
+    options.global.plugins.push(IonicVue);
+    return mount(comp, options);
 })
 
 declare global {

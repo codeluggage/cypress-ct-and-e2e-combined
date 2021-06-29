@@ -37,23 +37,3 @@ import '@ionic/vue/css/display.css'
 
 /* Theme variables */
 import '../../../src/theme/variables.css'
-
-
-// /* Core CSS required for Ionic components to work properly */
-// import '../../../node_modules/@ionic/vue/css/core.css'
-
-// /* Basic CSS for apps built with Ionic */
-// import '../../../node_modules/@ionic/vue/css/normalize.css'
-// import '../../../node_modules/@ionic/vue/css/structure.css'
-// import '../../../node_modules/@ionic/vue/css/typography.css'
-
-// /* Optional CSS utils that can be commented out */
-// import '../../../node_modules/@ionic/vue/css/padding.css'
-// import '../../../node_modules/@ionic/vue/css/float-elements.css'
-// import '../../../node_modules/@ionic/vue/css/text-alignment.css'
-// import '../../../node_modules/@ionic/vue/css/text-transformation.css'
-// import '../../../node_modules/@ionic/vue/css/flex-utils.css'
-// import '../../../node_modules/@ionic/vue/css/display.css'
-
-// /* Theme variables */
-// import '../../../src/theme/variables.css'
