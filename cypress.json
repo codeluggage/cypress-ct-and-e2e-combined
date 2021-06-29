@@ -10,6 +10,6 @@
     "viewportWidth": 375,
     "viewportHeight": 667,
     "componentFolder": "src/components",
-    "testFiles": "**/*.spec.cy.{ts,js}"
+    "testFiles": "**/*.spec.cy.{ts,js}?(x)"
   }
 }
