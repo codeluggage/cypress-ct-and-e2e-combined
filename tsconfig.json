@@ -13,8 +13,9 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "jest",
-      "cypress"
+      "cypress",
+      "mocha",
+      "chai"
     ],
     "paths": {
       "@/*": [

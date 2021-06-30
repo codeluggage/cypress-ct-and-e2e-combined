@@ -1,9 +1,21 @@
-import { mount } from '@vue/test-utils'
-import Tab1 from '@/views/Tab1.vue'
+import { expect } from "chai"
 
-describe('Tab1.vue', () => {
-  it('renders tab 1 view', () => {
-    const wrapper = mount(Tab1)
-    expect(wrapper.text()).toMatch('Tab 1 page')
+import calc from '@/utils/calc'
+
+
+describe('Unit Test Application Code', () => {
+  const { calculateTheAnswer } = calc
+
+  before(() => {
+    // check if the import worked correctly
+    expect(calculateTheAnswer , 'calculateTheAnswer ').to.be.a('function')
+  })
+
+  it('answers false when sum is not 42', () => {
+    expect(calculateTheAnswer(0, 42)).to.eq(false)
+  })
+
+  it('answers true when sum is 42', () => {
+    expect(calculateTheAnswer(2, 22)).to.eq(false)
   })
 })
